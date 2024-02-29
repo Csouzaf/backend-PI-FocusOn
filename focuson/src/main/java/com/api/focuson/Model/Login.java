@@ -1,6 +1,5 @@
-package com.focuson.focuson.Model;
+package com.api.focuson.Model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,7 +11,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name="login")
+@Table(name = "login")
 @Getter
 @Setter
 @AllArgsConstructor

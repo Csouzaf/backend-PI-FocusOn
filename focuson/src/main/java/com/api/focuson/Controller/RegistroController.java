@@ -17,8 +17,6 @@ public class RegistroController {
     private IRegistroRepository registroRepository;
 
     @PostMapping("/")
-    public Registro create(@RequestBody Registro registro) {
-
-    }
+    
 
 }

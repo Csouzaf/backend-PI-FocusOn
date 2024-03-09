@@ -1,4 +1,4 @@
-package com.focuson.focuson.Model;
+package com.api.focuson.model;
 
 public class Register {
  

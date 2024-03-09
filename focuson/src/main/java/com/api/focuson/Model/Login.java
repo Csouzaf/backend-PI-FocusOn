@@ -1,4 +1,6 @@
+
 package com.api.focuson.model;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,7 +13,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name="login")
+@Table(name = "login")
 @Getter
 @Setter
 @AllArgsConstructor
@@ -21,6 +23,7 @@ public class Login {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
+    private String username;
     private String email;
     private String password;
 }

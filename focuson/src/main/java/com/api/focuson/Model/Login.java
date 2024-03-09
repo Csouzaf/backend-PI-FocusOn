@@ -1,4 +1,6 @@
-package com.api.focuson.Model;
+
+package com.api.focuson.model;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,6 +23,7 @@ public class Login {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
+    private String username;
     private String email;
     private String password;
 }

@@ -1,16 +1,19 @@
 package com.api.focuson.service;
 
-import com.api.focuson.model.Login;
-import com.api.focuson.repository.LoginRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.api.focuson.Model.Login;
+import com.api.focuson.Repository.LoginRepository;
 
 import java.util.List;
 
 @Service
 public class LoginService {
+
    @Autowired
    private LoginRepository loginRepository;
+   
    public List<Login> getAllLogins(){
     return loginRepository.findAll();
    }
@@ -21,14 +24,6 @@ public class LoginService {
 
    public Login createLogin(Login login){
     return loginRepository.save(login);
-  }
-
-  public Login updateLogin(Login login){
-   return loginRepository.save(login);
-  }
-
-  public void deleteLogin(Long id){
-   loginRepository.deleteById(id);
   }
 
 }

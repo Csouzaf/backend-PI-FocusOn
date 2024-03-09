@@ -1,9 +1,11 @@
 package com.api.focuson.Repository;
 
-import com.api.focuson.Model.Login;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import com.api.focuson.Model.Registro;
 
 @Repository
-public interface LoginRepository extends JpaRepository<Login, Long> {
+public interface RegistroRepository extends JpaRepository<Registro, Long> {
+
+
 }

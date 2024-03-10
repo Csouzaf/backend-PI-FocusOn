@@ -34,8 +34,6 @@ public class LoginService {
       throw new ExceptionError("Já existe um usuário com este e-mail");
     }
 
-    //TODO - Se o login.Email == registro.Email()
-
     return loginRepository.save(login);
    
   }

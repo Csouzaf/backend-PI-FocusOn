@@ -2,13 +2,10 @@ package com.api.focuson.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.api.focuson.Error.ExceptionError;
 import com.api.focuson.Model.Login;
-import com.api.focuson.Model.Registro;
 import com.api.focuson.Repository.LoginRepository;
 import com.api.focuson.Repository.RegistroRepository;
-
 import java.util.List;
 
 @Service

@@ -3,7 +3,6 @@ package com.api.focuson.controller;
 import java.util.List;
 
 import com.api.focuson.Model.Login;
-import com.api.focuson.Model.Registro;
 import com.api.focuson.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

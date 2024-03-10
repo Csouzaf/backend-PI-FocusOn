@@ -24,10 +24,10 @@ public class Login {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
 
-    @OneToOne
-    @JoinColumn(name="loginId")
-    private Registro registro;
+    private String email;
+
+    private String password;
 
 }

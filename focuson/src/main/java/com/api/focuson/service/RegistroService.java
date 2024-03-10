@@ -21,11 +21,11 @@ public class RegistroService {
     return registroRepository.findAll();
    }
 
-  public Registro getLoginById(Long id) {
+  public Registro getRegistroById(Long id) {
         return registroRepository.findById(id).orElse(null);
   }
 
-   public Registro createLogin(Registro registro){
+   public Registro createRegistro(Registro registro){
     return registroRepository.save(registro);
   }
 
